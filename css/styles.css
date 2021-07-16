@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#title{
+    background-color: #ff4c68;
+    text-align: left;
+}
+h1{
+    color: white;
+    font-family:'Montserrat-black';
+    font-size: 3.125rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 5% 15% 3.7%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.title-text{
+    padding-top: 15%;
+    padding-bottom: 0%;
+    padding-right: 3%;
+    font-family:'Ubuntu';
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    
+}
+.title-img{
+    
+    width: 60%;
+    transform: rotate(27deg);
+    position: absolute;
+    right: 35%;
+  
+}
+@media(max-width:993px){
+    #title{
+        text-align: center;
+    }
+    .title-text{
+        text-align: center;
+    }
+    .title-img{
+        text-align: center;
+        position: static;
+        transform: rotate(0deg);
+    }
+
+}
+#features{
+    padding:7% 10% 0;
+    background-color: rgb(253, 251, 251);
+    position: relative;
+    z-index:1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+p{
+    color: #8f8f8f;
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.icon{
+    height:60px;
+    width:60px;
+    cursor: pointer;
+}
+.app:hover{
+    background-color: transparent;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+}
+.testimonial-text{
+    color: #ffff;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+.padd{
+    margin:1.5%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+#pricing{
+    
+    padding:7% 15%;
+    text-align: center;
+}
+.pricing-title{
+    font-family: 'Segoe UI';
+    font-size:2.5rem;
+    font-weight: 900;
+}
+.pricing-p{
+    padding-top:10%;
+    padding-bottom: 10%;
+}
+.btn-padd{
+    padding-left: 79px;
+    padding-right: 90px;
+    padding-top:3px;
+    padding-bottom: 3px;
+
+}
+.pricing-text{
+    font-family: 'Segoe UI';
+    font-weight: 900;
+    font-size: 1.75rem;
+}
+.pricing-p{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 38px;
+}
+.pricing-padd{
+    padding: 0%;
+}
+.pricing-par{
+    padding-bottom:15%;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    height:500px;
+    padding: 8% 15%;
+}
+.cta-text{
+    color: white;
+    font-family:'Segoe UI';
+    font-size:3.125rem;;
+    font-weight:900;
+    padding-bottom: 5%;
+}
+#footer{
+    padding:7% 15% ;
+    text-align: center;
+
+}
+.footer-img{
+    height: 20px;
+    width:20px;
+    padding:3px; 
+    cursor: pointer;  
+}
+.footer-par{
+    padding-top: 15px;
+}
